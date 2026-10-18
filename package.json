@@ -1,6 +1,6 @@
 {
   "name": "csv2json-mini",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Tiny dependency-free CSV to JSON converter with a CLI.",
   "license": "MIT",
   "author": "acus9345 <acus9345@gmail.com>",
