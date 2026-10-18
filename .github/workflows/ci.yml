@@ -13,9 +13,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        # Ubuntu only: this repo is private, and private repos pay for Actions minutes
-        # (Windows counts 2x, macOS 10x). Add windows-latest / macos-latest when you need them.
-        os: [ubuntu-latest]
+        os: [ubuntu-latest, windows-latest, macos-latest]
         node: [22, 24]
     runs-on: ${{ matrix.os }}
     steps:

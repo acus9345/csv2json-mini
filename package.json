@@ -1,7 +1,16 @@
 {
   "name": "csv2json-mini",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Tiny dependency-free CSV to JSON converter with a CLI.",
+  "keywords": [
+    "csv",
+    "json",
+    "csv-to-json",
+    "converter",
+    "parser",
+    "cli",
+    "rfc4180"
+  ],
   "license": "MIT",
   "author": "acus9345 <acus9345@gmail.com>",
   "type": "module",
@@ -10,7 +19,8 @@
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
-      "import": "./dist/index.js"
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
     }
   },
   "bin": {
@@ -41,6 +51,5 @@
   "devDependencies": {
     "@types/node": "^22.0.0",
     "typescript": "^6.0.3"
-  },
-  "private": true
+  }
 }
